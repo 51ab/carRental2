@@ -1,0 +1,1157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+		<title>Car Rental</title>
+
+		<meta  name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0," />
+
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'/>
+
+
+
+	</head>
+
+	<body>
+
+		<style type="text/css">
+
+
+			 html {
+				width: 100%;
+			}
+			body {
+				margin: 0;
+				padding: 0;
+				width: 100%;
+				-webkit-text-size-adjust: none;
+				-ms-text-size-adjust: none;
+			}
+			img {
+				display: block !important;
+				border: 0;
+				-ms-interpolation-mode: bicubic;
+			}
+			 .ReadMsgBody {
+				width: 100%;
+			}
+			.ExternalClass {
+				width: 100%;
+			}
+			.ExternalClass,
+			.ExternalClass p,
+			.ExternalClass span,
+			.ExternalClass font,
+			.ExternalClass td,
+			.ExternalClass div {
+				line-height: 100%;
+			}
+			 .images {
+				display: block !important;
+				width: 100% !important;
+			}
+			.MsoNormal {
+				font-family:Open Sans,Arial, Helvetica Neue, Helvetica, sans-serif !important;
+			}
+			p {
+				margin: 0 !important;
+				padding: 0 !important;
+			}
+			.display-button td,
+			.display-button a {
+				font-family:Open Sans, Arial, Helvetica Neue, Helvetica, sans-serif !important;
+			}
+			.display-button a:hover {
+				text-decoration: none !important;
+			}
+
+			/* MYMAIL STYLES */
+
+			a { color: #ff4202; text-decoration: none; }
+
+			.textbutton a { font-family: 'open sans', arial, sans-serif !important; color: #ffffff !important; }
+
+			/* MYMAIL PREHEADER - HIDDEN BY DEFAULT */
+			div.preheader{line-height:0px;font-size:0px;height:0px;display:none !important;display:none;visibility:hidden;}
+
+
+			/* MEDIA QUIRES */
+
+
+			@media only screen and (max-width:640px) {
+				body {
+					width:auto !important;
+				}
+				table[class=display-width] {
+					width:100% !important;
+				}
+				table[class=nulltable] {
+					display:none !important;
+				}
+				.null {
+					display:none !important;
+				}
+				.hide-height {
+					height:0 !important;
+				}
+				.common-height {
+					height:40px !important;
+				}
+				.hide {
+					display:none !important;
+				}
+				.remove {
+					border:none !important;
+				}
+				.choose {
+					padding-right:0 !important;
+				}
+				.remove-bar {
+					display:none !important;
+				}
+				.phone {
+					width:55% !important;
+				}
+				.follow {
+					width:15px !important;
+				}
+				.resp-content{text-align:center !important;}
+			}
+
+			@media only screen and (max-width:480px) {
+				table[class=display-width] table {
+					width:100% !important;
+				}
+				table[class=display-width] .button-width .display-button {
+					width:auto !important;
+				}
+				.menu {
+					font-size:12px !important;
+				}
+				table[class=display-width] .phone {
+					width:55% !important;
+				}
+
+				table[class=display-width] table[class=display-width-list] {
+					width:auto !important;
+				}
+			}
+
+			@media only screen and (max-width:350px) {
+				table[class=display-width] .phone {
+					width:auto !important;
+				}
+			}
+      body{margin-top:20px;}
+
+      .align-center {
+          text-align: center;
+      }
+      .hash-list {
+          display: block;
+          padding: 0;
+          margin: 0 auto;
+      }
+
+      @media (min-width: 768px){
+          .hash-list.cols-3 > li:nth-last-child(-n+3) {
+              border-bottom: none;
+          }
+      }
+      @media (min-width: 768px){
+          .hash-list.cols-3 > li {
+              width: 33.3333%;
+          }
+      }
+      .hash-list > li {
+          display: block;
+          float: left;
+          border-right: 1px solid rgba(0, 0, 0, 0.2);
+          border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      }
+      .pad-30, .pad-30-all > * {
+          padding: 30px;
+      }
+      img {
+          border: 0;
+      }
+      .mgb-20, .mgb-20-all > * {
+          margin-bottom: 20px;
+      }
+      .wpx-100, .wpx-100-after:after {
+          width: 100px;
+      }
+      .img-round, .img-rel-round {
+          border-radius: 50%;
+      }
+      .padb-30, .padb-30-all > * {
+          padding-bottom: 30px;
+      }
+
+      .mgb-40, .mgb-40-all > * {
+          margin-bottom: 40px;
+      }
+      .align-center {
+          text-align: center;
+      }
+      [class*="line-b"] {
+          position: relative;
+          padding-bottom: 20px;
+          border-color: #E6AF2A;
+      }
+      .fg-text-d, .fg-hov-text-d:hover, .fg-active-text-d.active {
+          color: #222;
+      }
+      .font-cond-b {
+          font-weight: 700 !important;
+      }
+		</style>
+		<div class="preheader">{preheader}</div>
+
+	<modules>
+
+		<module label="Menu" active auto>
+
+		<!-- MENU STARTS -->
+
+		<table align="center" bgcolor="#333333" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody>
+				<tr>
+					<td align="center">
+						<table align="center" bgcolor="#00FFFF" border="0" cellpadding="0" cellspacing="0" class="display-width" width="680">
+							<tr>
+								<td align="center" style="padding:0 30px;">
+									<table align="center" border="0" cellpadding="0" cellspacing="0" class="display-width" width="600">
+										<tr>
+											<td height="15"></td>
+										</tr>
+										<tr>
+											<td align="center">
+												<table align="center" border="0" cellpadding="0" cellspacing="0" class="display-width" width="100%">
+													<tr>
+														<td>
+															<table align="left" border="0" cellpadding="0" cellspacing="0" class="display-width" width="25%" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+																<tr>
+																	<td align="center" valign="middle">
+																		<a href="#" style="color:#ffffff;text-decoration:none;">
+																			<img src="http://www.c2c.business/assets/images/header_logo@2x.png" alt="150x50" width="150" editable label="Logo Image" />
+																		</a>
+																	</td>
+																</tr>
+															</table>
+
+															<table align="left" border="0" cellpadding="0" cellspacing="0" width="1" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+																<tbody>
+																	<tr>
+																		<td style="line-height:20px;" height="20" width="1"></td>
+																	</tr>
+																</tbody>
+															</table>
+
+															<table align="right" border="0" cellpadding="0" cellspacing="0" class="display-width" width="56%" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+																<tr>
+																	<td align="right">
+																		<table align="center" border="0" cellspacing="0" cellpadding="0" class="display-width" width="100%">
+																			<tr>
+																				<td height="15" class="hide-height"></td>
+																			</tr>
+																			<tr>
+																				<td align="center">
+																					<table align="center" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:auto !important;">
+																						<tr>
+																							<td>
+																								<table align="left" border="0" cellspacing="0" cellpadding="0" width="49%" class="display-width" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;width:auto;">
+																									<tr>
+																										<td align="center">
+																											<table align="center" border="0" cellspacing="0" cellpadding="0" class="display-width" width="100%" style="width:auto !important;">
+																												<tr>
+																													<td align="left" valign="middle" width="30">
+																														<img src="https://onspotsocial.com/wp-content/uploads/2016/06/email-envelope.jpg" alt="20x20x1" width="0" editable label="Example Image" />
+																													</td>
+																													<td align="left" valign="middle" class="MsoNormal menu" style="color:#ffffff;font-family:'Segoe UI',sans-serif,Arial,Helvetica,Lato;font-size:13px;font-weight:600;letter-spacing:1px;">
+																														<a href="#" style="color:#ffffff;text-decoration:none;">
+
+																														</a>
+																													</td>
+																												</tr>
+																											</table>
+																										</td>
+																									</tr>
+																								</table>
+
+																								<table align="left" border="0" cellpadding="0" cellspacing="0" width="1" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;mso-hide:all;">
+																									<tr>
+																										<td style="line-height:10px;" height="10"></td>
+																									</tr>
+																								</table>
+
+																								<table align="right" border="0" cellspacing="0" cellpadding="0" width="50%" class="display-width" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;width:auto;">
+																									<tr>
+																										<td align="center">
+																											<table align="center" border="0" cellspacing="0" cellpadding="0" class="phone" width="100%" style="width:auto;">
+																												<tr>
+
+																													<td width="25" class="remove-bar"></td>
+																													<td align="left" valign="middle" width="30">
+																														<img src="http://pennyblacktemplates.com/demo/notifications/single-product/images/20x20x2.png" alt="20x20x2" width="0" editable label="Num Image" />
+																													</td>
+																													<td align="left" valign="middle" class="MsoNormal menu" style="color:black;font-family:'Segoe UI',sans-serif,Arial,Helvetica,Lato;font-size:13px;font-weight:600;letter-spacing:1px;text-transform:capitalize;">
+																														<multi label="Number">+91-44-22 416 011</multi>
+																													</td>
+																												</tr>
+																											</table>
+																										</td>
+																									</tr>
+																								</table>
+																							</td>
+																						</tr>
+																					</table>
+																				</td>
+																			</tr>
+																			<tr>
+																				<td height="15" class="hide-height"></td>
+																			</tr>
+																		</table>
+																	</td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td height="15"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<!-- MENU ENDS -->
+
+		</module>
+
+		<module label="Product" active auto>
+
+		<!-- PRODUCT STARTS -->
+
+		<table align="center" bgcolor="#333333" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+				<td align="center">
+					<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="display-width" width="680">
+						<tr>
+							<td align="center" style="border-bottom:1px solid #eeeeee;padding:0 30px;">
+								<table align="center"   border="0" cellpadding="0" cellspacing="0" class="display-width" width="600">
+									<tr>
+										<td align="center">
+											<table align="center" border="0" cellpadding="0" cellspacing="0" class="display-width" width="100%">
+												<tr>
+													<td height="40"></td>
+												</tr>
+												<tr>
+													<td align="center" class="MsoNormal" style="color:#333333;font-family:'Segoe UI',sans-serif,Arial,Helvetica,Lato;font-size:18px;font-weight:700;letter-spacing:1px;line-height:26px;text-transform:uppercase;">
+														<multi label="Title">C2C Car Rentals</multi>
+													</td>
+												</tr>
+												<tr>
+													<td height="10"></td>
+												</tr>
+												<tr>
+													<td align="center">
+														<img src="http://pennyblacktemplates.com/demo/notifications/single-product/images/90x5.png" alt="90x5" width="90" style="color:#444444;" editable label="Underline Image" />
+													</td>
+												</tr>
+												<tr>
+													<td height="30"></td>
+												</tr>
+												<tr>
+													<td>
+														<!-- TABLE LEFT -->
+
+														<table align="left" border="0" cellpadding="0" cellspacing="0" class="display-width" width="46%" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+															<tr>
+																<td align="center">
+																	<table align="center" border="0" cellpadding="0" cellspacing="0" class="display-width" width="100%" style="width:auto !important;">
+																		<tr>
+																			<td align="center" width="275">
+																				<img src="https://pbs.twimg.com/media/EpU8JIEXcAIim8f?format=jpg&name=900x900" alt="275x360x1" width="275" style="border-radius:5px;color:#444444;width:100%;" editable label="Product Image" />
+																			</td>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+														</table>
+
+														<table align="left" border="0" cellpadding="0" cellspacing="0" width="1" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+															<tbody>
+																<tr>
+																	<td style="line-height:40px;" height="40" width="1"></td>
+																</tr>
+															</tbody>
+														</table>
+
+														<!-- TABLE RIGHT -->
+
+														<table align="right" border="0" cellpadding="0" cellspacing="0" class="display-width" width="48%" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+
+															<tr>
+																<td align="left" class="MsoNormal resp-content" style="color:#333333;font-family:'Segoe UI',sans-serif,Arial,Helvetica,Lato;font-size:25px;font-weight:600;letter-spacing:1px;line-height:26px;text-transform:capitalize;">
+																	<multi label="Heading">Book Mercedes Benz for your Special Day !</multi>
+																</td>
+															</tr>
+															<tr>
+																<td height="10"></td>
+															</tr>
+															<tr>
+																<td align="left" class="MsoNormal resp-content" style="color:#666666;font-family:'Segoe UI',sans-serif,Arial,Helvetica,Lato;font-size:14px;line-height:24px;">
+																	<multi label="Content">"Neque porro quisquam est qui dolorem ipsum , consectetur, adipisci velit..."
+                                  <br>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tincidunt enim sapien, consectetur adipiscing elit. Mauris tincidunt enim sapien,ut semper urna tincidunt ut. Ut pellentesque vestibulum ornare. </multi>
+																</td>
+															</tr>
+															<tr>
+																<td height="15"></td>
+															</tr>
+															<tr>
+																<td align="left">
+																	<table align="left" class="display-width" border="0" cellpadding="0" cellspacing="0" style="width:auto; border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+																		<tr>
+																			<td align="center">
+																				<table align="center" class="display-width-list" border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+																					<tr>
+																						<td align="left">
+																							<table align="left" border="0" cellpadding="0" cellspacing="0" width="70%" style="width:auto !important;">
+																								<tr>
+
+
+																								</tr>
+																							</table>
+																						</td>
+																					</tr>
+																					<tr>
+																						<td height="10"></td>
+																					</tr>
+
+																					<tr>
+																						<td height="10"></td>
+																					</tr>
+																					<tr>
+																						<td align="left">
+																							<table align="left" border="0" cellpadding="0" cellspacing="0" width="70%" style="width:auto !important;">
+																								<tr>
+
+																									<td align="left" class="MsoNormal" style="color:#666666;font-family:'Segoe UI',sans-serif,Arial,Helvetica,Lato;font-size:14px;letter-spacing:1px;line-height:20px;">
+
+																									</td>
+																								</tr>
+																							</table>
+																						</td>
+																					</tr>
+																				</table>
+																			</td>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+															<tr>
+																<td height="18"></td>
+															</tr>
+															<tr>
+																	<td align="center">
+																		<table align="left" class="display-width" border="0" cellpadding="0" cellspacing="0" style="width:auto; border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+																			<tr>
+																				<td align="center" class="button-width">
+																					<table align="center" bgcolor="#ff4202" border="0" cellspacing="0" cellpadding="0" class="display-button textbutton" style="border-radius:5px;"> <!-- USING TABLE AS BUTTON -->
+																						<tr>
+																							<td align="center" valign="middle" class="MsoNormal" style="color:#ffffff;font-family:'Segoe UI',sans-serif,Arial,Helvetica,Lato;font-size:13px;font-weight:bold;letter-spacing:1px;padding:7px 15px;text-transform:uppercase;">
+																								<a href="#" style="color:#ffffff;text-decoration:none;" editable label="Buy Now Button">Book</a>
+																							</td>
+																						</tr>
+																					</table>
+																				</td>
+																			</tr>
+																		</table>
+																	</td>
+																</tr>
+
+														</table>
+													</td>
+												</tr>
+												<tr>
+													<td height="40"></td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+
+		<!-- PRODUCT ENDS -->
+
+		</module>
+
+		<module label="Other Services" active auto>
+
+		<!-- THREE COLUMN : GALLERY STARTS -->
+
+		<table align="center" bgcolor="#333333" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+				<td align="center">
+					<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="display-width" width="680">
+						<tr>
+							<td align="center" style="border-bottom:1px solid #eeeeee;padding:0 30px;">
+								<table align="center"   border="0" cellpadding="0" cellspacing="0" class="display-width" width="600">
+									<tr>
+										<td align="center">
+											<table align="center"  border="0" cellpadding="0" cellspacing="0" class="display-width" width="100%">
+												<tr>
+													<td height="40"></td>
+												</tr>
+												<tr>
+													<td align="center" class="MsoNormal" style="color:#000000;font-family:'Segoe UI',sans-serif,Arial,Helvetica,Lato;font-size:18px;font-weight:700;letter-spacing:1px;line-height:26px;text-transform:uppercase;">
+														<multi label="Title"><b>Our Services</b></multi>
+													</td>
+												</tr>
+												<tr>
+													<td height="10"></td>
+												</tr>
+												<tr>
+													<td align="center">
+														<img src="https://scontent.fdel14-1.fna.fbcdn.net/v/t1.6435-9/95368735_10158240018321670_7935172930873327616_n.jpg?_nc_cat=1&ccb=1-5&_nc_sid=973b4a&_nc_ohc=bfoG2Wix0PUAX-K0zFd&_nc_ht=scontent.fdel14-1.fna&oh=a2dd62ae2e4e2b9ad67c85577d758c16&oe=616F17B4" alt="90x5" width="90" style="color:#444444;" editable label="Underline Image" />
+													</td>
+												</tr>
+												<tr>
+													<td height="30"></td>
+												</tr>
+												<tr>
+													<td align="center">
+														<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+																<tr>
+													<td width="190">
+														<!-- TABLE LEFT -->
+
+														<table align="left" border="0" cellpadding="0" cellspacing="0" class="display-width" width="190" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+															<tr>
+																<td align="center">
+																	<table align="center" class="display-width" border="0" cellpadding="0" cellspacing="0" width="190" style="width:190px !important; border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+																		<tr>
+																<td align="left">
+																	<table align="left" border="0" cellpadding="0" cellspacing="0" class="display-width" width="100%" style="width:auto !important;">
+																		<tr>
+																			<td align="left" width="200">
+																				<img src="https://st2.depositphotos.com/1001599/12136/v/600/depositphotos_121367820-stock-illustration-worker-filling-up-fuel-into.jpg" alt="200x200x1" width="200" style="border-radius:5px;color:#444444;width:100%;" editable label="Product Image" />
+																			</td>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+															<tr>
+																<td height="20"></td>
+															</tr>
+															<tr>
+																<td align="center" class="MsoNormal" style="color:#333333;font-family:'Segoe UI',sans-serif,Arial,Helvetica,Lato;font-size:16px;font-weight:600;letter-spacing:1px;line-height:20px;text-transform:capitalize;">
+																	<multi label="Heading" align="center">Fuel Cost Included</multi>
+																</td>
+															</tr>
+															<tr>
+																<td height="5"></td>
+															</tr>
+															<tr>
+
+															</tr>
+															<tr>
+																<td height="20"></td>
+															</tr>
+															<tr>
+																<td align="left" class="button-width">
+																	<table align="center" bgcolor="#ff4202" border="0" cellspacing="0" cellpadding="0" class="display-button textbutton" style="border-radius:5px;"> <!-- USING TABLE AS BUTTON -->
+																		<tr>
+																			<td align="center" valign="middle" class="MsoNormal" style="color:#ffffff;font-family:'Segoe UI',sans-serif,Arial,Helvetica,Lato;font-size:13px;font-weight:bold;letter-spacing:1px;padding:7px 15px;text-transform:uppercase;">
+																				<a href="#" style="color:#ffffff;text-decoration:none;" editable label="Buy Now Button">Visit</a>
+																			</td>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+																	</table>
+																</td>
+															</tr>
+
+														</table>
+
+														<!--[if gte mso 9]>
+														</td><td width="15">
+														<![endif]-->
+
+														<table align="left" border="0" cellpadding="0" cellspacing="0" width="15" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;mso-hide:all;">
+															<tr>
+																<td style="line-height:40px;" height="40"></td>
+															</tr>
+														</table>
+
+														<!--[if gte mso 9]>
+														</td><td width="190">
+														<![endif]-->
+
+														<!-- TABLE CENTER -->
+
+														<table align="left" border="0" cellpadding="0" cellspacing="0" class="display-width" width="190" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+															<tr>
+																<td align="center">
+																	<table align="center" class="display-width" border="0" cellpadding="0" cellspacing="0" width="190" style="width:190px !important; border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+																		<tr>
+																<td align="left">
+																	<table align="left" border="0" cellpadding="0" cellspacing="0" class="display-width" width="100%" style="width:auto !important;">
+																		<tr>
+																			<td align="left" width="190">
+																				<img src="https://cliply.co/wp-content/uploads/2019/03/371903340_LOCATION_MARKER_400.gif" alt="190x200x2" width="190" style="border-radius:5px;color:#444444;width:100%;" editable label="Product Image" />
+																			</td>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+															<tr>
+																<td height="20"></td>
+															</tr>
+															<tr>
+																<td align="center" class="MsoNormal" style="color:#333333;font-family:'Segoe UI',sans-serif,Arial,Helvetica,Lato;font-size:16px;font-weight:600;letter-spacing:1px;line-height:20px;text-transform:capitalize;">
+																	<multi label="Heading">Go Anywhere</multi>
+																</td>
+															</tr>
+															<tr>
+																<td height="5"></td>
+															</tr>
+															<tr>
+
+															</tr>
+															<tr>
+																<td height="20"></td>
+															</tr>
+															<tr>
+																<td align="center" class="button-width">
+																	<table align="center" bgcolor="#ff4202" border="0" cellspacing="0" cellpadding="0" class="display-button textbutton" style="border-radius:5px;"> <!-- USING TABLE AS BUTTON -->
+																		<tr>
+																			<td align="center" valign="middle" class="MsoNormal" style="color:#ffffff;font-family:'Segoe UI',sans-serif,Arial,Helvetica,Lato;font-size:13px;font-weight:bold;letter-spacing:1px;padding:7px 15px;text-transform:uppercase;">
+																				<a href="#" style="color:#ffffff;text-decoration:none;" editable label="Buy Now Button">Visit</a>
+																			</td>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+																	</table>
+																</td>
+															</tr>
+
+														</table>
+
+														<!--[if gte mso 9]>
+														</td><td width="15">
+														<![endif]-->
+
+														 <table align="left" border="0" cellpadding="0" cellspacing="0" width="1" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;mso-hide:all;">
+															<tr>
+																<td style="line-height:40px;" height="40" width="1"></td>
+															</tr>
+														</table>
+
+														<!-- TABLE RIGHT -->
+
+														<table align="right" border="0" cellpadding="0" cellspacing="0" class="display-width" width="190" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+															<tr>
+																<td align="center">
+																	<table align="center" class="display-width" border="0" cellpadding="0" cellspacing="0" width="190" style="width:190px !important; border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+																		<tr>
+																<td align="left">
+																	<table align="left" border="0" cellpadding="0" cellspacing="0" class="display-width" width="100%" style="width:auto !important;">
+																		<tr>
+																			<td align="left" width="190">
+																				<img src="https://thumbs.dreamstime.com/b/cartoon-banner-roadside-assistance-city-skyline-tow-truck-loaded-car-white-background-vector-illustration-flat-88886143.jpg" alt="190x200x3" width="190" style="border-radius:5px;color:#444444;width:100%;" editable label="Product Image" />
+																			</td>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+															<tr>
+																<td height="20"></td>
+															</tr>
+															<tr>
+																<td align="center" class="MsoNormal" style="color:#333333;font-family:'Segoe UI',sans-serif,Arial,Helvetica,Lato;font-size:12px;font-weight:600;letter-spacing:1px;line-height:20px;text-transform:capitalize;">
+																	<multi label="Heading">24X7 Roadside Assistance</multi>
+																</td>
+															</tr>
+															<tr>
+																<td height="5"></td>
+															</tr>
+															<tr>
+
+															</tr>
+															<tr>
+																<td height="20"></td>
+															</tr>
+															<tr>
+																<td align="center" class="button-width">
+																	<table align="center" bgcolor="#ff4202" border="0" cellspacing="0" cellpadding="0" class="display-button textbutton" style="border-radius:5px;"> <!-- USING TABLE AS BUTTON -->
+																		<tr>
+																			<td align="center" valign="middle" class="MsoNormal" style="color:#ffffff;font-family:'Segoe UI',sans-serif,Arial,Helvetica,Lato;font-size:13px;font-weight:bold;letter-spacing:1px;padding:7px 15px;text-transform:uppercase;">
+																				<a href="#" style="color:#ffffff;text-decoration:none;" editable label="Buy Now Button">Visit</a>
+																			</td>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+
+																	</table>
+																</td>
+															</tr>
+	</table>
+																</td>
+															</tr>
+
+														</table>
+													</td>
+												</tr>
+														</table>
+													</td>
+												</tr>
+
+												<tr>
+													<td height="40"></td>
+												</tr>
+
+											</table>
+										</td>
+									</tr>
+
+								</table>
+							</td>
+						</tr>
+					</table>
+          <table align="center" bgcolor="#333333" border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+              <td align="center">
+                <table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="display-width" width="680">
+                  <tr>
+                    <td align="center" style="border-bottom:1px solid #eeeeee;padding:0 30px;">
+                      <table align="center"   border="0" cellpadding="0" cellspacing="0" class="display-width" width="600">
+                        <tr>
+                          <td align="center">
+                            <table align="center"  border="0" cellpadding="0" cellspacing="0" class="display-width" width="100%">
+                              <tr>
+                                <td height="40"></td>
+                              </tr>
+                              <tr>
+
+                              </tr>
+
+
+
+                              <tr>
+                                <td align="center">
+                                  <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                      <tr>
+                                <td width="190">
+                                  <!-- TABLE LEFT -->
+
+                                  <table align="left" border="0" cellpadding="0" cellspacing="0" class="display-width" width="190" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+                                    <tr>
+                                      <td align="center">
+                                        <table align="center" class="display-width" border="0" cellpadding="0" cellspacing="0" width="190" style="width:190px !important; border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+                                          <tr>
+                                      <td align="left">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="display-width" width="100%" style="width:auto !important;">
+                                          <tr>
+                                            <td align="left" width="200">
+                                              <img src="https://media.istockphoto.com/vectors/car-insurance-concept-vector-illustration-vector-id1199266332?k=20&m=1199266332&s=612x612&w=0&h=68c21YnyN7gQo2zfLSTDQLYFSP_s2bdcOtQuyiqWKeY=" alt="200x200x1" width="200" style="border-radius:5px;color:#444444;width:100%;" editable label="Product Image" />
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td height="20"></td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center" class="MsoNormal" style="color:#333333;font-family:'Segoe UI',sans-serif,Arial,Helvetica,Lato;font-size:16px;font-weight:600;letter-spacing:1px;line-height:20px;text-transform:capitalize;">
+                                        <multi label="Heading" align="center">Damage Insurance</multi>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td height="5"></td>
+                                    </tr>
+                                    <tr>
+
+                                    </tr>
+                                    <tr>
+                                      <td height="20"></td>
+                                    </tr>
+                                    <tr>
+                                      <td align="left" class="button-width">
+                                        <table align="center" bgcolor="#ff4202" border="0" cellspacing="0" cellpadding="0" class="display-button textbutton" style="border-radius:5px;"> <!-- USING TABLE AS BUTTON -->
+                                          <tr>
+                                            <td align="center" valign="middle" class="MsoNormal" style="color:#ffffff;font-family:'Segoe UI',sans-serif,Arial,Helvetica,Lato;font-size:13px;font-weight:bold;letter-spacing:1px;padding:7px 15px;text-transform:uppercase;">
+                                              <a href="#" style="color:#ffffff;text-decoration:none;" editable label="Buy Now Button">Visit</a>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+
+                                  </table>
+
+                                  <!--[if gte mso 9]>
+                                  </td><td width="15">
+                                  <![endif]-->
+
+                                  <table align="left" border="0" cellpadding="0" cellspacing="0" width="15" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;mso-hide:all;">
+                                    <tr>
+                                      <td style="line-height:40px;" height="40"></td>
+                                    </tr>
+                                  </table>
+
+                                  <!--[if gte mso 9]>
+                                  </td><td width="190">
+                                  <![endif]-->
+
+                                  <!-- TABLE CENTER -->
+
+                                  <table align="left" border="0" cellpadding="0" cellspacing="0" class="display-width" width="190" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+                                    <tr>
+                                      <td align="center">
+                                        <table align="center" class="display-width" border="0" cellpadding="0" cellspacing="0" width="190" style="width:190px !important; border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+                                          <tr>
+                                      <td align="left">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="display-width" width="100%" style="width:auto !important;">
+                                          <tr>
+                                            <td align="left" width="190">
+                                              <img src="https://st2.depositphotos.com/6809168/47548/v/600/depositphotos_475488868-stock-illustration-no-hidden-fees-clipboard-in.jpg" alt="190x200x2" width="190" style="border-radius:5px;color:#444444;width:100%;" editable label="Product Image" />
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td height="20"></td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center" class="MsoNormal" style="color:#333333;font-family:'Segoe UI',sans-serif,Arial,Helvetica,Lato;font-size:16px;font-weight:600;letter-spacing:1px;line-height:20px;text-transform:capitalize;">
+                                        <multi label="Heading">No Hidden Charges</multi>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td height="5"></td>
+                                    </tr>
+                                    <tr>
+
+                                    </tr>
+                                    <tr>
+                                      <td height="20"></td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center" class="button-width">
+                                        <table align="center" bgcolor="#ff4202" border="0" cellspacing="0" cellpadding="0" class="display-button textbutton" style="border-radius:5px;"> <!-- USING TABLE AS BUTTON -->
+                                          <tr>
+                                            <td align="center" valign="middle" class="MsoNormal" style="color:#ffffff;font-family:'Segoe UI',sans-serif,Arial,Helvetica,Lato;font-size:13px;font-weight:bold;letter-spacing:1px;padding:7px 15px;text-transform:uppercase;">
+                                              <a href="#" style="color:#ffffff;text-decoration:none;" editable label="Buy Now Button">Visit</a>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+
+                                  </table>
+
+                                  <!--[if gte mso 9]>
+                                  </td><td width="15">
+                                  <![endif]-->
+
+                                   <table align="left" border="0" cellpadding="0" cellspacing="0" width="1" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;mso-hide:all;">
+                                    <tr>
+                                      <td style="line-height:40px;" height="40" width="1"></td>
+                                    </tr>
+                                  </table>
+
+                                  <!-- TABLE RIGHT -->
+
+                                  <table align="right" border="0" cellpadding="0" cellspacing="0" class="display-width" width="190" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+                                    <tr>
+                                      <td align="center">
+                                        <table align="center" class="display-width" border="0" cellpadding="0" cellspacing="0" width="190" style="width:190px !important; border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+                                          <tr>
+                                      <td align="left">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="display-width" width="100%" style="width:auto !important;">
+                                          <tr>
+                                            <td align="left" width="190">
+                                              <img src="https://static.vecteezy.com/system/resources/thumbnails/000/350/131/small/4__2832_29.jpg" alt="190x200x3" width="190" style="border-radius:5px;color:#444444;width:100%;" editable label="Product Image" />
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td height="20"></td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center" class="MsoNormal" style="color:#333333;font-family:'Segoe UI',sans-serif,Arial,Helvetica,Lato;font-size:12px;font-weight:600;letter-spacing:1px;line-height:20px;text-transform:capitalize;">
+                                        <multi label="Heading">Flexi Pricing Packages</multi>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td height="5"></td>
+                                    </tr>
+                                    <tr>
+
+                                    </tr>
+                                    <tr>
+                                      <td height="20"></td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center" class="button-width">
+                                        <table align="center" bgcolor="#ff4202" border="0" cellspacing="0" cellpadding="0" class="display-button textbutton" style="border-radius:5px;"> <!-- USING TABLE AS BUTTON -->
+                                          <tr>
+                                            <td align="center" valign="middle" class="MsoNormal" style="color:#ffffff;font-family:'Segoe UI',sans-serif,Arial,Helvetica,Lato;font-size:13px;font-weight:bold;letter-spacing:1px;padding:7px 15px;text-transform:uppercase;">
+                                              <a href="#" style="color:#ffffff;text-decoration:none;" editable label="Buy Now Button">Visit</a>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+
+                                        </table>
+                                      </td>
+                                    </tr>
+        </table>
+                                      </td>
+                                    </tr>
+
+                                  </table>
+                                </td>
+                              </tr>
+                                  </table>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td height="40"></td>
+                              </tr>
+
+                            </table>
+                          </td>
+                        </tr>
+
+                      </table>
+                    </td>
+                  </tr>
+
+                </table>
+
+		<!-- THREE COLUMN : GALLERY ENDS -->
+
+		</module>
+
+		<module label="Signin" active auto>
+
+		<!-- SIGNIN ACCOUNT STARTS -->
+
+		<table align="center" bgcolor="#333333" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+				<td align="center">
+					<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="display-width" width="680">
+						<tr>
+							<td align="center" style="padding:0 30px;">
+								<table align="center"   border="0" cellpadding="0" cellspacing="0" class="display-width" width="600">
+									<tr>
+										<td height="40"></td>
+									</tr>
+									<tr>
+
+									</tr>
+									<tr>
+										<td height="15"></td>
+									</tr>
+									<tr>
+										<td align="center" class="MsoNormal" style="color:#666666;font-family:'Segoe UI',sans-serif,Arial,Helvetica,Lato;font-size:14px;line-height:24px;">
+												</td>
+									</tr>
+									<tr>
+										<td height="40">
+                      <b><h3 style=" color: black;"> "Your City, your Choice, our Car"</h3></b>
+                      <img src="https://www.mercedes-benz.com/en/vehicles/passenger-cars/concept-cars/vision-eqs/_jcr_content/image/MQ6-12-image-20190910094823/00-mercedes-benz-vision-eqs-show-car-mercedes-benz-eq-2560x1440.jpeg" alt="190x200x3" width="190" style="border-radius:5px;color:#444444;width:100%;" editable label="Product Image" />
+<br>
+                    <p>  "Curabitur mattis imperdiet libero. Integer eu dictum justo,  cursus sodales ligula. Nunc id augue sed purus malesuada vestibulum vel sed magna. Vivamus justo enim, sodales eu nisi nec, volutpat dignissim orci."<br>
+                    <br></p>
+                    <div class="container">
+      <div class="mgb-40 padb-30 auto-invert line-b-4 align-center">
+          <h4 class="font-cond-l fg-accent lts-md mgb-10" contenteditable="false">Not Yet Convinced?</h4>
+          <h1 class="font-cond-b fg-text-d lts-md fs-300 fs-300-xs no-mg" contenteditable="false">Read Customer Reviews</h1>
+      </div>
+      <ul class="hash-list cols-3 cols-1-xs pad-30-all align-center text-sm">
+          <li>
+            <img src="https://bootdey.com/img/Content/avatar/avatar1.png" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
+            <p class="fs-110 font-cond-l" contenteditable="false">" Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. "</p>
+            <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Martha Stewart</h5>
+            <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Business Woman - New York</small>
+          </li>
+          <li>
+            <img src="https://bootdey.com/img/Content/avatar/avatar4.png" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
+            <p class="fs-110 font-cond-l" contenteditable="false">" Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. "</p>
+            <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Ariana Menage</h5>
+            <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Recording Artist - Los Angeles</small>
+          </li>
+          <li>
+            <img src="https://bootdey.com/img/Content/avatar/avatar5.png" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
+            <p class="fs-110 font-cond-l" contenteditable="false">" Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. "</p>
+            <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Sean Carter</h5>
+            <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Fund Manager - Chicago</small>
+          </li>
+        </ul>
+  </div></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+
+		<!-- SIGNIN ACCOUNT ENDS -->
+
+		</module>
+
+		<module label="Footer" active auto>
+
+      <table align="center" bgcolor="#333333" border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+          <td align="center" >
+            <table align="center"  border="0" cellpadding="0" cellspacing="0" class="display-width" width="100%">
+              <tr>
+                <td align="center">
+                  <table align="center" bgcolor="#FF4D4D" border="0" cellpadding="0" cellspacing="0" class="display-width" width="680">
+                    <tr>
+                      <td align="center" style="padding:0 30px;">
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" class="display-width" width="600">
+                          <tr>
+                            <td align="center">
+                              <table align="center" border="0" cellpadding="0" cellspacing="0" class="display-width" width="100%">
+                                <tr>
+                                  <td height="30"></td>
+                                </tr>
+                                <tr>
+                                  <td>
+
+                                    <!-- TABLE LEFT -->
+
+                                    <table align="left" border="0" cellpadding="0" cellspacing="0" class="display-width" width="43%" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+                                      <tbody>
+                                        <tr>
+                                          <td align="center">
+                                            <table align="left" border="0" cellpadding="0" cellspacing="0" class="display-width" style="width:auto;">
+                                              <tr>
+                                                <td>
+                                                  <table align="center" border="0" cellpadding="0" cellspacing="0" class="display-width" width="100%" style="width:auto !important;">
+                                                    <tr>
+                                                      <td align="center" class="MsoNormal" style="color:#ffffff;font-family:'Segoe UI',sans-serif,Arial,Helvetica,Lato;font-size:10px;letter-spacing:1px;line-height:24px;">
+                                                        <multi label="Copyright">© 2021 C2C VENTURE PRIVATE LIMITED.<br> All Rights Reserved.</multi>
+                                                      </td>
+                                                    </tr>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+
+                                     <table align="left" border="0" cellpadding="0" cellspacing="0" width="1" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+                                      <tbody>
+                                        <tr>
+                                          <td style="line-height:20px;" height="20" width="1"></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+
+                                    <!-- TABLE RIGHT -->
+
+                                    <table align="right" border="0" cellpadding="0" cellspacing="0" class="display-width" width="37%" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;width:auto;">
+                                      <tr>
+                                        <td align="center">
+                                          <table align="center" border="0" cellspacing="0" cellpadding="0" class="display-width" style="width:auto !important;">
+                                            <tr>
+                                              <td align="left" class="MsoNormal" style="color:#ffffff;font-family:'Segoe UI',sans-serif,Arial,Helvetica,Lato;font-size:14px;letter-spacing:1px;line-height:24px;">
+                                                  <multi label="Follow">Follow Us</multi>
+                                              </td>
+                                              <td width="20" class="follow">&nbsp;</td>
+                                              <td align="left">
+                                                <a href="#" style="color:#ffffff;text-decoration:none;">
+                                                  <img src="https://s3-symbol-logo.tradingview.com/facebook--600.png" alt="25x25x1" width="25" editable label="Social Icon" />
+                                                </a>
+                                              </td>
+                                              <td width="10">&nbsp;</td>
+                                              <td align="left">
+                                                <a href="#" style="color:#ffffff;text-decoration:none;">
+                                                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFFbZYk61wt0qOXxQQHAoSygY6JFbQXouMUG4n1VWYf4QHaWb2MgoJMNOUiNBkQhhyUu8&usqp=CAU" alt="25x25x2" width="25" editable label="Social Icon" />
+                                                </a>
+                                              </td>
+                                              <td width="10">&nbsp;</td>
+                                              <td align="left">
+                                                <a href="#" style="color:#ffffff;text-decoration:none;">
+                                                  <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="25x25x3" width="25" editable label="Social Icon" />
+                                                </a>
+                                              </td>
+                                              <td width="10">&nbsp;</td>
+                                              <td align="left">
+                                                <a href="#" style="color:#ffffff;text-decoration:none;">
+                                                  <img src="https://e7.pngegg.com/pngimages/854/804/png-clipart-pinterest-logo-square-pinterest-icon-icons-logos-emojis-social-media-icons-thumbnail.png" alt="25x25x4" width="25" editable label="Social Icon" />
+                                                </a>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td height="30"></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+
+
+		<!-- FOOTER ENDS -->
+
+		</module>
+
+	</modules>
+
+	</body>
+</html>
